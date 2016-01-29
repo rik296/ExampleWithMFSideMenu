@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380FFA721C5B40F900F17B00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA711C5B40F900F17B00 /* main.m */; };
+		380FFA751C5B40F900F17B00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA741C5B40F900F17B00 /* AppDelegate.m */; };
+		380FFA781C5B40F900F17B00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA771C5B40F900F17B00 /* ViewController.m */; };
+		380FFA7B1C5B40F900F17B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380FFA791C5B40F900F17B00 /* Main.storyboard */; };
+		380FFA7D1C5B40F900F17B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380FFA7C1C5B40F900F17B00 /* Assets.xcassets */; };
+		380FFA801C5B40F900F17B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380FFA7E1C5B40F900F17B00 /* LaunchScreen.storyboard */; };
+		380FFA8F1C5B439200F17B00 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA8A1C5B439200F17B00 /* MFSideMenuContainerViewController.m */; };
+		380FFA901C5B439200F17B00 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA8C1C5B439200F17B00 /* MFSideMenuShadow.m */; };
+		380FFA911C5B439200F17B00 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA8E1C5B439200F17B00 /* UIViewController+MFSideMenuAdditions.m */; };
+		380FFA951C5B44B600F17B00 /* UIBarButtonItem+CustomBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA941C5B44B600F17B00 /* UIBarButtonItem+CustomBackground.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		380FFA9F1C5B45B100F17B00 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFA9D1C5B45B100F17B00 /* LeftViewController.m */; };
+		380FFAA01C5B45B100F17B00 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380FFA9E1C5B45B100F17B00 /* LeftViewController.xib */; };
+		380FFAA41C5B45D000F17B00 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380FFAA21C5B45D000F17B00 /* RightViewController.m */; };
+		380FFAA51C5B45D000F17B00 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380FFAA31C5B45D000F17B00 /* RightViewController.xib */; };
+		380FFAA81C5B5A7F00F17B00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380FFAA71C5B5A7F00F17B00 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		380FFA6D1C5B40F900F17B00 /* ExampleWithMFSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleWithMFSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		380FFA711C5B40F900F17B00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		380FFA731C5B40F900F17B00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		380FFA741C5B40F900F17B00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		380FFA761C5B40F900F17B00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		380FFA771C5B40F900F17B00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		380FFA7A1C5B40F900F17B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		380FFA7C1C5B40F900F17B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		380FFA7F1C5B40F900F17B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		380FFA811C5B40F900F17B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380FFA881C5B439200F17B00 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		380FFA891C5B439200F17B00 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		380FFA8A1C5B439200F17B00 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		380FFA8B1C5B439200F17B00 /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		380FFA8C1C5B439200F17B00 /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		380FFA8D1C5B439200F17B00 /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		380FFA8E1C5B439200F17B00 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		380FFA931C5B44B600F17B00 /* UIBarButtonItem+CustomBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CustomBackground.h"; sourceTree = "<group>"; };
+		380FFA941C5B44B600F17B00 /* UIBarButtonItem+CustomBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CustomBackground.m"; sourceTree = "<group>"; };
+		380FFA9C1C5B45B100F17B00 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		380FFA9D1C5B45B100F17B00 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		380FFA9E1C5B45B100F17B00 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		380FFAA11C5B45D000F17B00 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		380FFAA21C5B45D000F17B00 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		380FFAA31C5B45D000F17B00 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		380FFAA71C5B5A7F00F17B00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		380FFA6A1C5B40F900F17B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380FFAA81C5B5A7F00F17B00 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380FFA641C5B40F900F17B00 = {
+			isa = PBXGroup;
+			children = (
+				380FFAA71C5B5A7F00F17B00 /* QuartzCore.framework */,
+				380FFA6F1C5B40F900F17B00 /* ExampleWithMFSideMenu */,
+				380FFA6E1C5B40F900F17B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		380FFA6E1C5B40F900F17B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				380FFA6D1C5B40F900F17B00 /* ExampleWithMFSideMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		380FFA6F1C5B40F900F17B00 /* ExampleWithMFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				380FFA921C5B44B600F17B00 /* UIBarButtonItem+CustomBackground */,
+				380FFA871C5B439200F17B00 /* MFSideMenu */,
+				380FFA731C5B40F900F17B00 /* AppDelegate.h */,
+				380FFA741C5B40F900F17B00 /* AppDelegate.m */,
+				380FFA761C5B40F900F17B00 /* ViewController.h */,
+				380FFA771C5B40F900F17B00 /* ViewController.m */,
+				380FFA9C1C5B45B100F17B00 /* LeftViewController.h */,
+				380FFA9D1C5B45B100F17B00 /* LeftViewController.m */,
+				380FFA9E1C5B45B100F17B00 /* LeftViewController.xib */,
+				380FFAA11C5B45D000F17B00 /* RightViewController.h */,
+				380FFAA21C5B45D000F17B00 /* RightViewController.m */,
+				380FFAA31C5B45D000F17B00 /* RightViewController.xib */,
+				380FFA791C5B40F900F17B00 /* Main.storyboard */,
+				380FFA7C1C5B40F900F17B00 /* Assets.xcassets */,
+				380FFA7E1C5B40F900F17B00 /* LaunchScreen.storyboard */,
+				380FFA811C5B40F900F17B00 /* Info.plist */,
+				380FFA701C5B40F900F17B00 /* Supporting Files */,
+			);
+			path = ExampleWithMFSideMenu;
+			sourceTree = "<group>";
+		};
+		380FFA701C5B40F900F17B00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				380FFA711C5B40F900F17B00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		380FFA871C5B439200F17B00 /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				380FFA881C5B439200F17B00 /* MFSideMenu.h */,
+				380FFA891C5B439200F17B00 /* MFSideMenuContainerViewController.h */,
+				380FFA8A1C5B439200F17B00 /* MFSideMenuContainerViewController.m */,
+				380FFA8B1C5B439200F17B00 /* MFSideMenuShadow.h */,
+				380FFA8C1C5B439200F17B00 /* MFSideMenuShadow.m */,
+				380FFA8D1C5B439200F17B00 /* UIViewController+MFSideMenuAdditions.h */,
+				380FFA8E1C5B439200F17B00 /* UIViewController+MFSideMenuAdditions.m */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		380FFA921C5B44B600F17B00 /* UIBarButtonItem+CustomBackground */ = {
+			isa = PBXGroup;
+			children = (
+				380FFA931C5B44B600F17B00 /* UIBarButtonItem+CustomBackground.h */,
+				380FFA941C5B44B600F17B00 /* UIBarButtonItem+CustomBackground.m */,
+			);
+			path = "UIBarButtonItem+CustomBackground";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		380FFA6C1C5B40F900F17B00 /* ExampleWithMFSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380FFA841C5B40F900F17B00 /* Build configuration list for PBXNativeTarget "ExampleWithMFSideMenu" */;
+			buildPhases = (
+				380FFA691C5B40F900F17B00 /* Sources */,
+				380FFA6A1C5B40F900F17B00 /* Frameworks */,
+				380FFA6B1C5B40F900F17B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleWithMFSideMenu;
+			productName = ExampleWithMFSideMenu;
+			productReference = 380FFA6D1C5B40F900F17B00 /* ExampleWithMFSideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		380FFA651C5B40F900F17B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GOLiFE;
+				TargetAttributes = {
+					380FFA6C1C5B40F900F17B00 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 380FFA681C5B40F900F17B00 /* Build configuration list for PBXProject "ExampleWithMFSideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 380FFA641C5B40F900F17B00;
+			productRefGroup = 380FFA6E1C5B40F900F17B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				380FFA6C1C5B40F900F17B00 /* ExampleWithMFSideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		380FFA6B1C5B40F900F17B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380FFA801C5B40F900F17B00 /* LaunchScreen.storyboard in Resources */,
+				380FFAA01C5B45B100F17B00 /* LeftViewController.xib in Resources */,
+				380FFAA51C5B45D000F17B00 /* RightViewController.xib in Resources */,
+				380FFA7D1C5B40F900F17B00 /* Assets.xcassets in Resources */,
+				380FFA7B1C5B40F900F17B00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		380FFA691C5B40F900F17B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380FFA9F1C5B45B100F17B00 /* LeftViewController.m in Sources */,
+				380FFA781C5B40F900F17B00 /* ViewController.m in Sources */,
+				380FFA8F1C5B439200F17B00 /* MFSideMenuContainerViewController.m in Sources */,
+				380FFA951C5B44B600F17B00 /* UIBarButtonItem+CustomBackground.m in Sources */,
+				380FFAA41C5B45D000F17B00 /* RightViewController.m in Sources */,
+				380FFA901C5B439200F17B00 /* MFSideMenuShadow.m in Sources */,
+				380FFA911C5B439200F17B00 /* UIViewController+MFSideMenuAdditions.m in Sources */,
+				380FFA751C5B40F900F17B00 /* AppDelegate.m in Sources */,
+				380FFA721C5B40F900F17B00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		380FFA791C5B40F900F17B00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380FFA7A1C5B40F900F17B00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		380FFA7E1C5B40F900F17B00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380FFA7F1C5B40F900F17B00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		380FFA821C5B40F900F17B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		380FFA831C5B40F900F17B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		380FFA851C5B40F900F17B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExampleWithMFSideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GOLiFE.ExampleWithMFSideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		380FFA861C5B40F900F17B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExampleWithMFSideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GOLiFE.ExampleWithMFSideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		380FFA681C5B40F900F17B00 /* Build configuration list for PBXProject "ExampleWithMFSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380FFA821C5B40F900F17B00 /* Debug */,
+				380FFA831C5B40F900F17B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380FFA841C5B40F900F17B00 /* Build configuration list for PBXNativeTarget "ExampleWithMFSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380FFA851C5B40F900F17B00 /* Debug */,
+				380FFA861C5B40F900F17B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 380FFA651C5B40F900F17B00 /* Project object */;
+}
